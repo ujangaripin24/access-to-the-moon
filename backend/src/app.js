@@ -1,1 +1,1 @@
-console.log('hallo dunia');
+console.log('akan di commit ke de-backend');
