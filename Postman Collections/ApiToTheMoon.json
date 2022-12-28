@@ -4,5 +4,29 @@
 		"name": "Github-Access-To-The-Moon",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "http://localhost:3030/register",
+			"id": "47490541-0070-4fdf-b4a4-a5df9a95ccc0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"ujangaripin2401@gmail.com\",\n    \"password\": \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3030/register",
+				"description": "api for register [static] dari express"
+			},
+			"response": []
+		}
+	]
 }
