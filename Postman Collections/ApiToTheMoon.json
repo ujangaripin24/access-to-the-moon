@@ -12,7 +12,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -23,7 +23,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3030/register",
+				"url": "http://localhost:4000/",
 				"description": "api for register [static] dari express"
 			},
 			"response": []
