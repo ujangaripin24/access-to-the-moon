@@ -24,7 +24,7 @@
 					}
 				},
 				"url": "http://localhost:4000/",
-				"description": "api for register [static] dari express"
+				"description": "port berubah 3030 => 4000"
 			},
 			"response": []
 		}
