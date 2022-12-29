@@ -4,19 +4,19 @@
         type="email"
         name="email"
         v-model="email"
-        placeholder="Email Anda..."
+        placeholder="Masukkan Email Anda..."
     />
     <br>
     <input 
         type="password"
         name="password"
         v-model="password"
-        placeholder="Password Anda"
+        placeholder="Masukkan Password Anda"
     />
     <br>
     <button
         @click="register"
-    >Register</button>    
+    >Register Sekarang</button>    
 </template>
 
 <script>
