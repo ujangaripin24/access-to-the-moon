@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:3030/register",
+			"name": "http://localhost:5000/",
 			"id": "47490541-0070-4fdf-b4a4-a5df9a95ccc0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
