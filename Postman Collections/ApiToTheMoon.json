@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "0577e5a7-f315-4f2e-98ef-e9d45c008d98",
+		"name": "Github-Access-To-The-Moon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/",
+			"id": "47490541-0070-4fdf-b4a4-a5df9a95ccc0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"ujangaripin2401@gmail.com\",\n    \"password\": \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/",
+				"description": "port berubah 3030 => 4000"
+			},
+			"response": []
+		}
+	]
+}
